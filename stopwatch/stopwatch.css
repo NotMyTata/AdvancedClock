@@ -11,7 +11,7 @@ body {
     align-items: center;
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(to bottom right, #b9bedf, #acd2d3);
+    background-image: linear-gradient(to bottom right, #c1b9df, #acd2d3);
 }
 
 .stopwatch{
