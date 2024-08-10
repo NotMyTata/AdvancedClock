@@ -1,11 +1,11 @@
 function changeToClock(){
-    document.getElementById('content').src = 'clock/clock.html';
+    document.getElementById('container').src = 'clock/clock.html';
 }
 
 function changeToStopwatch(){
-    document.getElementById('content').src = 'stopwatch/stopwatch.html';
+    document.getElementById('container').src = 'stopwatch/stopwatch.html';
 }
 
 function changeToTimer(){
-    document.getElementById('content').src = 'timer/timer.html';
+    document.getElementById('container').src = 'timer/timer.html';
 }
