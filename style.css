@@ -5,6 +5,7 @@ body{
     position: fixed;
     width: 100vw;
     height: 100vh;
+    background-color: hsl(0, 0%, 96%);
 }
 
 header, footer{
@@ -15,6 +16,7 @@ main{
     flex: 1;
     overflow: hidden;
     position: relative;
+    left: -8px;
 }
 
 h1, h5{
@@ -51,6 +53,10 @@ nav li{
 
 iframe{
     position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
     width: 100vw;
     height: 100vh;
 }

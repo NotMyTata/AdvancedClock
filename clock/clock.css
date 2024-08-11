@@ -6,18 +6,11 @@
 body{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
-    position: relative;
     align-items: center;
     justify-content: center;
     height: 65vh;
-}
-
-.clock{
-    text-align: center;
-    padding: 100px;
-    border-radius: 80px;
-    border-style: solid;
-}
+    color: black;
+}   
 
 .clock ul{
     list-style: none;
@@ -25,15 +18,96 @@ body{
     overflow: hidden;
 }
 
+.clock{
+    background-color: wheat;
+    text-align: center;
+    padding: 50px;
+    border-radius: 40px;
+    border-style: solid;
+}
+
 .clock ul li{
-    font-size: 200px;
+    font-size: 50px;
 }
 
 .clock ul #UTC{
-    font-size: 24px;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 #tanggal{
-    font-size: 36px;
+    font-size: 20px;
     font-weight: bold;
+}
+
+@media (min-width: 650px){
+    .clock{
+        background-color: wheat;
+        text-align: center;
+        padding: 60px;
+        border-radius: 50px;
+        border-style: solid;
+    }
+    
+    .clock ul li{
+        font-size: 100px;
+    }
+
+    .clock ul #UTC{
+        font-weight: bold;
+        font-size: 24px;
+    }
+    
+    #tanggal{
+        font-size: 30px;
+        font-weight: bold;
+    }
+}
+
+@media (min-width: 900px){
+    .clock{
+        background-color: wheat;
+        text-align: center;
+        padding: 70px;
+        border-radius: 60px;
+        border-style: solid;
+    }
+    
+    .clock ul li{
+        font-size: 150px;
+    }
+
+    .clock ul #UTC{
+        font-weight: bold;
+        font-size: 32px;
+    }
+    
+    #tanggal{
+        font-size: 40px;
+        font-weight: bold;
+    }
+}
+
+@media (min-width: 1200px){
+    .clock{
+        background-color: wheat;
+        text-align: center;
+        padding: 80px;
+        border-radius: 70px;
+        border-style: solid;
+    }
+    
+    .clock ul li{
+        font-size: 200px;
+    }
+
+    .clock ul #UTC{
+        font-weight: bold;
+        font-size: 40px;
+    }
+    
+    #tanggal{
+        font-size: 50px;
+        font-weight: bold;
+    }
 }
